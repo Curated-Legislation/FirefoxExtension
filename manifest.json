@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Curated Legislation",
+  "version": "0.1",
+
+  "description": "An Extension Which Allows You To Log Comments From Legislation.gov.uk on curated Legislation",
+
+  "icons": {
+    "48": "icons/Curated-Legislation-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.legislation.gov.uk/"],
+      "js": ["cl.js"]
+    }
+  ]
+
+}
