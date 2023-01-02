@@ -10,6 +10,13 @@
     "48": "icons/Curated-Legislation-48.png"
   },
 
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/Curated-Legislation-48.png"
+    },
+    "default_popup": "popup/comments.html"
+  },
+
   "content_scripts": [
     {
       "matches": ["*://www.legislation.gov.uk/"],
